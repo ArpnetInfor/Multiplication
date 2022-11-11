@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background: rgb(74, 75, 75);
+    color: white;
+    padding: 10px;
+    width: 100vw;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(139, 141, 143);
+    background: linear-gradient(90deg, rgba(139, 141, 143, 1) 47%, rgba(1, 12, 14, 1) 100%);
+}
+
+.calculator {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: rgba(29, 27, 27, 0.2);
+    color: white;
+    width: 20em;
+    height: 600px;
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+    box-shadow: 5px 10px 8px rgb(44, 43, 43);
+}
+
+.numberTab {
+    height: 2em;
+    padding: 1em;
+    font-size: 14pt;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 10px 8px rgb(44, 43, 43);
+}
+
+.multiply {
+    margin-top: 30px;
+    height: 2em;
+    font-size: 14pt;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 10px 8px rgb(44, 43, 43);
+}
+
+.multiply:hover {
+    background-color: black;
+    color: white;
+}
+
+.result{
+    margin-top: 30px;
+    font-size: 25pt;
+}
